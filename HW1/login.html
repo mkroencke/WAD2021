@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Welcome to PostIt! Please Log In.</title>
-    <link rel="stylesheet" href="res/css/style.css" />
+    <link rel="stylesheet" href="res/css/login-style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -11,7 +11,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <section>
-    </section>
+    <div class="flex-container">
+      <div class="login_form">
+        <header>
+          <h1>Welcome to postIt!</h1>
+        </header>
+        <a href="/HW1/login.html">Create an Account</a>
+        <p>Or</p>
+        <p>Please Log In</p>
+        <form action="/HW1/index.html">
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Email"
+          /><br/>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          /><br/>
+          <div class="login_button_holder">
+            <input class="login_button" type="submit" value="Log In" />
+          </div>
+        </form>
+        <a href="/HW1/login.html">Forgot password?</a>
+      </div>
+    </div>
   </body>
 </html>
