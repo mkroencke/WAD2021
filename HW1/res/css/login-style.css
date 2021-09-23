@@ -36,9 +36,10 @@ form input {
 .login_form {
     display: flex;
     flex-direction: column;
-    background-image: url('/HW1/res/images/postit-logo.png');
+    background-image: url('../images/postit-logo.png');
     background-repeat: no-repeat;
     background-size: 60px 60px;
+    background-position: 4% 4%;
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 20px;
