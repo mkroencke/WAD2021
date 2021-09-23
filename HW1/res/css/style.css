@@ -1,15 +1,4 @@
-header > nav {
-    display: flex;
-    position: fixed;
-    height: 50px;
-    width: 100%;
-}
-
-#logo {
-
-}
-
-#search-button {
-    display: flex;
-    align-items: center;
+html, body {
+    background-color: rgb(16, 114, 212);
+    height: 100%;
 }
