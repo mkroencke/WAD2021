@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Welcome to PostIt! Please Log In.</title>
+    <link rel="stylesheet" href="res/css/style.css" />
     <link rel="stylesheet" href="res/css/login-style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
@@ -11,32 +12,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="flex-container">
-      <div class="login_form">
+    <div class="container">
+      <div class="login-form-holder">
         <header>
+          <img src="/HW1/res/images/postit-logo.png" />
           <h1>Welcome to postIt!</h1>
         </header>
-        <a href="/HW1/login.html">Create an Account</a>
+        <a href="#">Create an Account</a>
         <p>Or</p>
         <p>Please Log In</p>
         <form action="/HW1/index.html">
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="Email"
-          /><br/>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Password"
-          /><br/>
-          <div class="login_button_holder">
-            <input class="login_button" type="submit" value="Log In" />
+          <input type="text" placeholder="Email"/><br/>
+          <input type="password" placeholder="Password"/>
+          <div class="login-button-holder">
+            <input id="login-button" type="submit" value="Log In" />
           </div>
         </form>
-        <a href="/HW1/login.html">Forgot password?</a>
+        <a href="#">Forgot password?</a>
       </div>
     </div>
   </body>

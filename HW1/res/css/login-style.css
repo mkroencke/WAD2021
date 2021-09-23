@@ -1,63 +1,74 @@
-html, body {
-    height: 100%;
-    margin: 0;
+form {
+    flex-direction: column;
 }
 
-h1 {
-    font-size: large;
+form input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 2em;
+}
+
+a:hover {
+    color: green;
+}
+
+img {
+    position: relative;
+    height: 100px;     
+}
+
+header>h1 {
+    font-size: x-large;
     border-left: 10px;
     border-right: 10px;
 }
 
-a {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-form input {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.flex-container {
+.container {
     display: flex;
+    flex-direction: row;
     height: 100%;
-    background-color: dodgerblue;
     align-items: center;
+    justify-content: center;
+}
+
+.login-form-holder {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 3px 3px 20px 1px rgb(44, 44, 44);
+    text-align: center;
     align-content: center;
     justify-content: center;
 }
 
-.login_form {
-    display: flex;
-    flex-direction: column;
-    background-image: url('/HW1/res/images/postit-logo.png');
-    background-repeat: no-repeat;
-    background-size: 60px 60px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #f1f1f1;
-    align-items: center;
+.login-form-holder:hover {
+    transform: scale(1.03);
 }
 
-form input {
-    line-height: 2em;
+.login-form-holder a {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.login_button_holder {
+.login-form-holder p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-button-holder {
     text-align: center;
 }
 
-.login_button {
+#login-button {
     padding-left: 15px;
     padding-right: 15px;
     background-color: blue;
     color: white;
+}
+
+#login-button:hover {
+    background-color: rgb(24, 5, 104);
+    transform: scale(1.1);
 }
