@@ -1,15 +1,66 @@
 header > nav {
     display: flex;
     position: fixed;
-    height: 50px;
+    top: 0;
+    left: 0;
+    padding: 3px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#search > input {
+    box-sizing: border-box;
+    width: 80%;
+}
+
+#search > button {
+    box-sizing: border-box;
+    width: 20%;
+    background-color: rgb(16, 114, 212);
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 60px auto;
+    background-color: white;
+    padding: 50px;
+}
+
+article {
+    border-style: outset;
+    margin: 10px;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header + img {
     width: 100%;
 }
 
-#logo {
-
+header ~ p {
+    padding: 5px;
+    font-weight: bold;
 }
 
-#search-button {
-    display: flex;
-    align-items: center;
+.like-button {
+    padding: 5px;
+}
+
+.like-button button {
+    background-color: blue;
 }
