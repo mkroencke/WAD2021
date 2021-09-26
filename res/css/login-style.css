@@ -51,8 +51,10 @@ div>h1 {
     flex: 1;
 }
 
-.login-form-holder:hover {
-    transform: scale(1.03);
+.login-header-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .login-form-holder a {
@@ -77,9 +79,12 @@ div>h1 {
 	border-color: rgb(16, 114, 212);
     background-color: rgb(16, 114, 212);
     color: white;
+    font-weight: bolder;
 }
 
 #login-button:hover {
+    border-color: rgb(24, 5, 104);
     background-color: rgb(24, 5, 104);
-    transform: scale(1.1);
+    transform: scale(0.9);
+    transition-duration: 0.3s;
 }
