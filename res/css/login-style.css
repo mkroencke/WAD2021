@@ -72,7 +72,10 @@ div>h1 {
 #login-button {
     padding-left: 15px;
     padding-right: 15px;
-    background-color: blue;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: rgb(16, 114, 212);
+    background-color: rgb(16, 114, 212);
     color: white;
 }
 

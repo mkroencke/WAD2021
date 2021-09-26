@@ -3,10 +3,14 @@ header > nav {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 3px;
+    padding: 5px;
     width: 100%;
     background-color: white;
     justify-content: space-between;
+}
+
+#logo {
+	padding-left:20px;
 }
 
 #search {
@@ -18,14 +22,24 @@ header > nav {
 
 #search > input {
     box-sizing: border-box;
+	border-style:solid;
+	border-right:none;
+	border-radius:3px 0px 0px 3px;
     width: 80%;
 }
 
 #search > button {
     box-sizing: border-box;
+	border-radius:0px 5px 5px 0px;
+	border-style:solid;
     width: 20%;
     background-color: rgb(16, 114, 212);
+	border-color: rgb(16, 114, 212);
     color: white;
+}
+
+#userpic {
+	padding-right:20px;
 }
 
 section {
@@ -38,11 +52,14 @@ section {
 }
 
 article {
-    border-style: outset;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
     margin: 10px;
+	border-radius: 5px;
 }
 
 .post-info {
+	padding: 10px;
+	padding-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,14 +70,17 @@ header + img {
 }
 
 header ~ p {
-    padding: 5px;
+    padding: 10px;
     font-weight: bold;
 }
 
 .like-button {
-    padding: 5px;
+    padding: 10px;
 }
 
 .like-button button {
-    background-color: blue;
+	border-radius: 5px;
+	border-style:solid;
+	border-color: rgb(16, 114, 212);
+    background-color: rgb(16, 114, 212);
 }
