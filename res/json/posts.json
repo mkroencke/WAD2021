@@ -1,0 +1,146 @@
+[
+    {
+        "createdAt": {
+            "date": "Oct 19, 2021",
+            "time": "08:31"
+        },
+        "author": {
+            "firstname": "Susan",
+            "lastname": "Bane"
+        },
+        "content": {
+            "text": "Which weighs more, a pound of feathers or a pound of bricks?"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 18, 2021",
+            "time": "07:34"
+        },
+        "author": {
+            "firstname": "Susette",
+            "lastname": "Destinee"
+        },
+        "content": {
+            "text": "I think it's going to rain.",
+            "pic": "https://cdn.pixabay.com/photo/2014/10/19/21/44/cloud-494739_960_720.jpg",
+            "alt": "Dark clouds"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 16, 2021",
+            "time": "10:33"
+        },
+        "author": {
+            "firstname": "Thomas",
+            "lastname": "Brown"
+        },
+        "content": {
+            "text": "Let's have lunch.",
+            "pic": "https://cdn.pixabay.com/photo/2017/09/28/18/22/tarte-flambee-2796419_960_720.jpg",
+            "alt": "Tarte flambée"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 15, 2021",
+            "time": "00:07"
+        },
+        "author": {
+            "firstname": "Merle",
+            "lastname": "Septima"
+        },
+        "content": {
+            "text": "Bitcoin has hit a new record high after the launch of a new exchange-traded fund (ETF) linked to the cryptocurrency.",
+            "pic": "https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_960_720.jpg",
+            "alt": "Bitcoin"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 12, 2021",
+            "time": "12:12"
+        },
+        "author": {
+            "firstname": "Bob",
+            "lastname": "Tomsen"
+        },
+        "content": {
+            "text": "Life is what happens to us while we are making other plans."
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 11, 2021",
+            "time": "17:24"
+        },
+        "author": {
+            "firstname": "Nannie",
+            "lastname": "Gunn"
+        },
+        "content": {
+            "text": "Looking up to the stars tonight.",
+            "pic": "https://cdn.pixabay.com/photo/2015/10/12/14/59/milky-way-984050_960_720.jpg",
+            "alt": "Stars in the sky"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 4, 2021",
+            "time": "11:05"
+        },
+        "author": {
+            "firstname": "Caressa",
+            "lastname": "Uund"
+        },
+        "content": {
+            "text": "Working from home.",
+            "pic": "https://cdn.pixabay.com/photo/2015/06/24/16/36/office-820390_960_720.jpg",
+            "alt": "Home office"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 02, 2021",
+            "time": "06:47"
+        },
+        "author": {
+            "firstname": "Sarette",
+            "lastname": "Iaverne"
+        },
+        "content": {
+            "text": "Got a new friend today.",
+            "pic": "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg",
+            "alt": "Puppy"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 01, 2021",
+            "time": "14:13"
+        },
+        "author": {
+            "firstname": "Jimmy",
+            "lastname": "Hansen"
+        },
+        "content": {
+            "text": "Die with memories, not dreams."
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 01, 2021",
+            "time": "10:13"
+        },
+        "author": {
+            "firstname": "Jimmy",
+            "lastname": "Hansen"
+        },
+        "content": {
+            "text": "Without music, life would be a mistake.",
+            "pic": "https://cdn.pixabay.com/photo/2014/11/26/15/20/saxophone-546303_960_720.jpg",
+            "alt": "Instrument and notes"
+        }
+    }
+]
