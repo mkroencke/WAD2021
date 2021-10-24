@@ -27,4 +27,16 @@ $(document).ready(function() {
     }
   });
 
+  $("#userpic").click(function() {
+    if ($("#namemail").length) {
+      $("#namemail").toggle()
+    } else {
+      let namemail = $('<div id="namemail">')
+      let pname = $('<p>').text("John Doe")
+      let pemail = $('<p>').text("john.doe@example.com")
+      namemail.append(pname)
+      namemail.append(pemail)
+      $("#pageHeader").append(namemail)
+    }
+  });
 });

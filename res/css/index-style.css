@@ -84,3 +84,15 @@ header ~ p {
 	border-color: rgb(16, 114, 212);
     background-color: rgb(16, 114, 212);
 }
+
+#pageHeader {
+    width: 100%;
+    position: fixed;
+}
+
+#namemail {
+    background-color: white;
+    width: 15%;
+    position: relative;
+    float: right;
+}
