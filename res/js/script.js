@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $.get(
-    "https://api.jsonbin.io/b/617402ea9548541c29c76269/22",
+    //"https://api.jsonbin.io/b/617402ea9548541c29c76269/22",
+    "res/json/posts.json",
     function (posts) {
       let section = $("#postingSection");
       for (post of posts) {
