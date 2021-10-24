@@ -29,6 +29,21 @@
     },
     {
         "createdAt": {
+            "date": "Oct 18, 2021",
+            "time": "06:15"
+        },
+        "author": {
+            "firstname": "Neil",
+            "lastname": "Armstrong"
+        },
+        "content": {
+            "text": "That’s one small step for a man, a giant leap for mankind.",
+            "pic": "https://cdn.pixabay.com/photo/2012/10/10/11/05/space-station-60615_960_720.jpg",
+            "alt": "Moon landing"
+        }
+    },
+    {
+        "createdAt": {
             "date": "Oct 16, 2021",
             "time": "10:33"
         },
@@ -44,12 +59,25 @@
     },
     {
         "createdAt": {
+            "date": "Oct 16, 2021",
+            "time": "05:47"
+        },
+        "author": {
+            "firstname": "William",
+            "lastname": "Shakespeare"
+        },
+        "content": {
+            "text": "To thine own self, be true."
+        }
+    },
+    {
+        "createdAt": {
             "date": "Oct 15, 2021",
             "time": "00:07"
         },
         "author": {
-            "firstname": "Merle",
-            "lastname": "Septima"
+            "firstname": "Brian",
+            "lastname": "Armstrong"
         },
         "content": {
             "text": "Bitcoin has hit a new record high after the launch of a new exchange-traded fund (ETF) linked to the cryptocurrency.",
@@ -63,8 +91,8 @@
             "time": "12:12"
         },
         "author": {
-            "firstname": "Bob",
-            "lastname": "Tomsen"
+            "firstname": "Henry",
+            "lastname": "Cooke"
         },
         "content": {
             "text": "Life is what happens to us while we are making other plans."
@@ -87,6 +115,21 @@
     },
     {
         "createdAt": {
+            "date": "Oct 6, 2021",
+            "time": "13:34"
+        },
+        "author": {
+            "firstname": "Stack",
+            "lastname": "Overflow"
+        },
+        "content": {
+            "text": "It’s not a bug — it’s an undocumented feature.",
+            "pic": "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
+            "alt": "Coding"
+        }
+    },
+    {
+        "createdAt": {
             "date": "Oct 4, 2021",
             "time": "11:05"
         },
@@ -98,6 +141,19 @@
             "text": "Working from home.",
             "pic": "https://cdn.pixabay.com/photo/2015/06/24/16/36/office-820390_960_720.jpg",
             "alt": "Home office"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Oct 02, 2021",
+            "time": "06:47"
+        },
+        "author": {
+            "firstname": "Mahatma",
+            "lastname": "Ghandi"
+        },
+        "content": {
+            "text": "You must be the change you wish to see in the world."
         }
     },
     {
@@ -134,13 +190,26 @@
             "time": "10:13"
         },
         "author": {
-            "firstname": "Jimmy",
-            "lastname": "Hansen"
+            "firstname": "Friedrich",
+            "lastname": "Nietzsche"
         },
         "content": {
             "text": "Without music, life would be a mistake.",
             "pic": "https://cdn.pixabay.com/photo/2014/11/26/15/20/saxophone-546303_960_720.jpg",
             "alt": "Instrument and notes"
+        }
+    },
+    {
+        "createdAt": {
+            "date": "Sep 29, 2021",
+            "time": "08:45"
+        },
+        "author": {
+            "firstname": "Benjamin",
+            "lastname": "Franklin"
+        },
+        "content": {
+            "text": "Three can keep a secret, if two of them are dead."
         }
     }
 ]

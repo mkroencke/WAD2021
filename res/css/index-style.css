@@ -96,3 +96,13 @@ header ~ p {
     position: relative;
     float: right;
 }
+
+.header-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author {
+    margin-left: 12px;
+}
